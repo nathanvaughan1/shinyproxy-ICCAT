@@ -18,9 +18,7 @@ RUN apt-get update && apt-get install -y \
     libxml2 \
     libxml2-dev \
 	libnetcdf-dev \
-	libnetcdf-dev-dbgsym \
 	netcdf-bin \
-	netcdf-bin-dbgsym \
 	netcdf-dbg \
 	netcdf-doc
 
