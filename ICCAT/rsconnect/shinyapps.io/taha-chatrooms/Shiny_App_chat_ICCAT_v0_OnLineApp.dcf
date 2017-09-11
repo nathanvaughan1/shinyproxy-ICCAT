@@ -1,0 +1,9 @@
+name: Shiny_App_chat_ICCAT_v0_OnLineApp
+account: taha-chatrooms
+server: shinyapps.io
+bundleId: 640633
+url:
+        https://taha-chatrooms.shinyapps.io/Shiny_App_chat_ICCAT_v0_OnLineApp/
+when: 1481198927.66915
+asMultiple: FALSE
+asStatic: FALSE

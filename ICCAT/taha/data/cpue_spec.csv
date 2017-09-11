@@ -1,0 +1,10 @@
+cpue_numb,cpue_use_1,cpue_units_1,cpue_vulnerability_1,cpue_timing_1,cpue_first_age_1,cpue_last_age_1,cpue_title_1
+1,1,1,4,-1,6,10,ESPMarTrap
+2,1,1,4,-1,6,10,JLL EastMed
+3,1,2,1,-1,10,10,Nor PS
+4,1,1,4,1,4,10,JP LL NEA
+5,1,2,4,-1,5,6,SP BB1
+6,1,2,4,-1,2,3,SP BB2
+7,1,2,4,-1,3,6,SP BB3
+8,1,1,4,1,4,10,JP LL NEA2
+9,1,1,1,-1,1,3,Aerial

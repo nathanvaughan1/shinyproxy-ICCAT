@@ -1,0 +1,67 @@
+Run,Year,CAA,PCAA,CPUE,Pwaa,waa,compare to,f_ratio,effect,nCPUE,CPUE_cut,n_remove_year,age_plus_group
+Run_0,1950-2011,CAA2012.csv,PCAA2012.csv,CPUE2012.csv,waa2012.csv,fecaa2012.csv,,1,,7,0,0,10
+Run_0_A,1950-2011,CAA_Age1_25.csv,PCAA2012.csv,CPUE2012.csv,waa2012.csv,fecaa2012.csv,Run0,1,new CAA,7,0,0,10
+Run_0_B,1950-2011,CAA2012.csv,PCAA_Age1_25.csv,CPUE2012.csv,waa2012.csv,fecaa2012.csv,Run0,1,new PCAA,7,0,0,10
+Run_0_C,1950-2011,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE2012.csv,waa2012.csv,fecaa2012.csv,Run0,1,new CAA and PCAA,7,0,0,10
+Run_0_D,1950-2011,CAA2012.csv,PCAA2012.csv,CPUE.csv,waa2012.csv,fecaa2012.csv,Run0,1,new CPUE,7,0,0,10
+Run_0_E,1950-2011,CAA2012.csv,PCAA2012.csv,CPUE2012.csv,waa.csv,fecaa2012.csv,Run0,1,new Pwaa,7,0,0,10
+Run_0_F,1950-2011,CAA2012.csv,PCAA2012.csv,CPUE2012.csv,waa2012.csv,fecaa.csv,Run0,1,new waa,7,0,0,10
+Run_0_G,1950-2011,CAA2012.csv,PCAA2012.csv,CPUE2012.csv,waa.csv,fecaa.csv,Run0,1,new Pwaa and waa,7,0,0,10
+Run_0_H,1950-2011,CAA_Age1_25.csv,PCAA2012.csv,CPUE2012.csv,waa.csv,fecaa2012.csv,Run_0_A,1,new Pwaa,7,0,0,10
+Run_0_I,1950-2011,CAA_Age1_25.csv,PCAA2012.csv,CPUE2012.csv,waa2012.csv,fecaa.csv,Run_0_A,1,new waa,7,0,0,10
+Run_0_J,1950-2011,CAA_Age1_25.csv,PCAA2012.csv,CPUE2012.csv,waa.csv,fecaa.csv,Run_0_A,1,new Pwaa and waa,7,0,0,10
+Run_0_K,1950-2011,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE2012.csv,waa.csv,fecaa.csv,Run_0_J,1,new PCAA,7,0,0,10
+Run_0_L,1950-2011,CAA_Age1_25.csv,PCAA2012.csv,CPUE.csv,waa.csv,fecaa.csv,Run_0_J,1,new CPUE,7,0,0,10
+Run_1,1950-2011,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_0_J,1,new PCAA and CPUE,7,0,0,10
+Run_1_A,1950-2011,CAA_Age1_25.csv,PCAA_v1.csv,CPUE.csv,waa.csv,fecaa.csv,Run_1,1,NA,7,0,0,10
+Run_2,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_0,1,all new data,7,0,0,10
+Run_3,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST,8,0,0,10
+Run_4,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 2 years in SP_BB3,7,7,2,10
+Run_5,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 1 year in ESPMARTrap,7,1,1,10
+Run_2_2012,1950-2011,CAA2012.csv,PCAA2012.csv,CPUE2012.csv,waa2012.csv,fecaa2012.csv,Run_2,1,,7,0,0,10
+Run_6,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE_Run6.csv,waa.csv,fecaa.csv,Run_2,1,Run2 with aerial survey,8,0,0,10
+Run_7,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap,8,1,1,10
+Run_2_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_0,1,all new data,7,0,0,10
+Run_3_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST,8,0,0,10
+Run_4_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 2 years in SP_BB3,7,7,2,10
+Run_5_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 1 year in ESPMARTrap,7,1,1,10
+Run_6_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE_Run6.csv,waa.csv,fecaa.csv,Run_2,1,Run2 with aerial survey,8,0,0,10
+Run_7_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap,8,1,1,10
+Run_2_out1,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove MorSpnTrap CPUE,7,1,63,10
+Run_2_out2,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove JPNLL_EastMed CPUE,7,2,63,10
+Run_2_out3,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove Norway CPUE,7,3,63,10
+Run_2_out4,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove JPN_NEAtl CPUE,7,4,63,10
+Run_2_out5,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove SPBB1 CPUE,7,5,63,10
+Run_2_out6,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove SPBB2 CPUE,7,6,63,10
+Run_2_out7,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Jackknife! remove SPBB3 CPUE,7,7,63,10
+Run_8,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap,8,1,1,10
+Run_9,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap,8,1,1,10
+Run_10,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap,8,1,1,10
+Run_11,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,3,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap + F_ratio estimated for the same periods as in 2012,8,1,1,10
+Run_12,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,4,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap + F_ratio estimated for the periods estimated by Laurie,8,1,1,10
+Run_13,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_Run3.csv,CPUE_Run3.csv,waa.csv,fecaa16.csv,Run_2,2,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap + F_ratio set as 1 and age + to 16,8,1,1,16
+Run_11_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,3,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap + F_ratio estimated for the same periods as in 2012,8,1,1,10
+Run_12_inflate,1950-2013,CAA_inflated.csv,PCAA_Age1_25.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,4,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap + F_ratio estimated for the periods estimated by Laurie,8,1,1,10
+Run_2_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE.csv,waa.csv,fecaa.csv,Run_0,1,all new data,7,0,0,10
+Run_3_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_Run3_new.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST,8,0,0,10
+Run_4_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 2 years in SP_BB3,7,7,2,10
+Run_5_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 1 year in ESPMARTrap,7,1,1,10
+Run_6_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE_Run6.csv,waa.csv,fecaa.csv,Run_2,1,Run2 with aerial survey,8,0,0,10
+Run_7_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_Run3_new.csv,CPUE_Run3.csv,waa.csv,fecaa.csv,Run_2,1,split JP_LL NEAST and wihtout last 1 year in ESPMARTrap,8,1,1,10
+Run_14_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,3,without last 1 year in ESPMARTrap + F_ratio estimated for the same periods as in 2012,7,1,1,10
+Run_15_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,4,without last 1 year in ESPMARTrap + F_ratio estimated for the periods estimated by Laurie,7,1,1,10
+Run_16_new,1950-2013,CAA_Age1_25_new.csv,PCAA_Age1_25_new.csv,CPUE.csv,waa.csv,fecaa16_new.csv,Run_2,2,without last 1 year in ESPMARTrap + F_ratio set as 1 and age + to 16,7,1,1,16
+Run_14,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,3,without last 1 year in ESPMARTrap + F_ratio estimated for the same periods as in 2012,7,1,1,10
+Run_15,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,4,without last 1 year in ESPMARTrap + F_ratio estimated for the periods estimated by Laurie,7,1,1,10
+Run_16,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa16.csv,Run_2,2,without last 1 year in ESPMARTrap + F_ratio set as 1 and age + to 16,7,1,1,16
+Run_17,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25_mar.csv,CPUE_mar.csv,waa.csv,fecaa.csv,Run_0,1,Run_5 without ESPMARtrap but new Moroccan trap index,7,0,0,10
+Run_5_out1,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 1,7,1,63,10
+Run_5_out2,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 2,7,2,63,10
+Run_5_out3,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 3,7,3,63,10
+Run_5_out4,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 4,7,4,63,10
+Run_5_out5,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 5,7,5,63,10
+Run_5_out6,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 6,7,6,63,10
+Run_5_out7,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,Run 5 without CPUE 7,7,7,63,10
+Run_5_1,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last year in ESPMARTrap,7,0,0,10
+Run_5_2,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 2 years in ESPMARTrap,7,0,0,10
+Run_666,1950-2013,CAA_Age1_25.csv,PCAA_Age1_25.csv,CPUE.csv,waa.csv,fecaa.csv,Run_2,1,without last 1 year in ESPMARTrap,7,1,1,10
