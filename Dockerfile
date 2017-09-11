@@ -17,7 +17,12 @@ RUN apt-get update && apt-get install -y \
     default-jdk \
     libxml2 \
     libxml2-dev \
-	netcdf
+	libnetcdf-dev \
+	libnetcdf-dev-dbgsym \
+	netcdf-bin \
+	netcdf-bin-dbgsym \
+	netcdf-dbg \
+	netcdf-doc
 
 # install netcdf4
 #CMD ["/usr/local/bin/install_netcdf4.sh"]	
