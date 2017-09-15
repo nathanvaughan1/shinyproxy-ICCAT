@@ -24,7 +24,9 @@ RUN apt-get update && apt-get install -y \
 
 # install dependencies of the ICCAT app
 RUN R -e "install.packages(c('devtools','shiny','stringr','DT','RCurl','XML','plyr','reshape','ncdf4','rmarkdown','LBSPR','reshape2','ReporteRs','ggplot2','ReporteRsjars'), repos='https://cloud.r-project.org/')"
+RUN R -e "library('devtools')"
 RUN R -e "install_github('rCharts', 'ramnathv')"
+
 # copy the app to the image
 RUN mkdir /root/ICCAT
 COPY ICCAT /root/ICCAT
